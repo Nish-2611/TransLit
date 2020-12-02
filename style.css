@@ -135,3 +135,11 @@ footer li{
 footer img{
     max-width: 100px;
 }
+
+.tenor-gif-embed{
+    position:absolute;
+    bottom: 175px;
+    left: 100px;
+    max-width: 80px;
+    outline: 0px;
+}

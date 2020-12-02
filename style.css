@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --primary-color:#FCD34D;
+    --secondary-color:#DC2626;
+    --third-color:#92400E;
+    --primary-font:'Playfair Display', serif;
+}
+/*Navigation Bar*/
+nav{
+    background-color: var(--primary-color);
+    padding: 35px 10px;
+    border-radius: 20px;
+}
+nav h1{
+    font-family: var(--primary-font);
+    font-size: 30px;
+    color: var(--third-color);
+}
+nav .lit{
+    font-family: var(--primary-font);
+    font-size: 30px;
+    color: var(--secondary-color);
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+    font-family: var(--primary-font);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li{
+    padding: 10px;
+    display: inline;
+}
+
+nav a{
+    color: var(--third-color);
+}
+nav a.active ,a:hover{
+  color:var(--secondary-color);
+}
+middle{
+    background-color:#FEF2F2 ;
+}
+hero #pirate{
+    position: relative;
+max-width: 300px;
+}
+hero #translate-options{
+    position: absolute;
+    width: 200px;
+    margin: 20px 150px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid var(--third-color);
+    cursor: pointer;
+}
+hero #text-input{
+    position: absolute;
+    width: 400px;
+    margin: 70px 40px;
+    padding: 20px;
+   border-radius: 10px;
+   border: 2px solid var(--third-color);
+}
+
+hero button{
+    position: absolute;
+    margin: 170px 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--third-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+   
+}
+hero .lit{
+    color: var(--secondary-color);
+}
+hero #text-output{
+    position: absolute;
+    width: 400px;
+    margin: 240px 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--third-color);
+}
+ hero #wakanda{
+    position: absolute;
+    max-width: 250px;
+    margin: 50px 500px;
+ }
+ hero #mandalorian{
+    position: absolute;
+    max-width: 400px;
+    margin: 320px 60px;
+ }

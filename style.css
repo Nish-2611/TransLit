@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     color: black;
+  
 }
 
 :root{
@@ -13,9 +14,11 @@
     --secondary-color:#DC2626;
     --third-color:#92400E;
     --primary-font:'Playfair Display', serif;
+    --secondary-font:'Oswald', sans-serif;
 }
 /*Navigation Bar*/
 nav{
+    position: relative;
     background-color: var(--primary-color);
     padding: 35px 10px;
     border-radius: 20px;
@@ -47,20 +50,13 @@ nav ul li{
 nav a{
     color: var(--third-color);
 }
-nav a.active ,a:hover{
+a:hover{
   color:var(--secondary-color);
-}
-middle{
-    background-color:#FEF2F2 ;
-}
-hero #pirate{
-    position: relative;
-max-width: 300px;
 }
 hero #translate-options{
     position: absolute;
     width: 200px;
-    margin: 20px 150px;
+    margin: 20px 400px;
     font-size: 14px;
     background-color: transparent;
     border: 2px solid var(--third-color);
@@ -68,16 +64,15 @@ hero #translate-options{
 }
 hero #text-input{
     position: absolute;
+    margin: 80px 280px;
     width: 400px;
-    margin: 70px 40px;
     padding: 20px;
    border-radius: 10px;
    border: 2px solid var(--third-color);
 }
-
 hero button{
     position: absolute;
-    margin: 170px 200px;
+    margin: 180px 430px;
     padding: 10px 20px;
     border-radius: 10px;
     outline: none;
@@ -92,20 +87,33 @@ hero .lit{
     color: var(--secondary-color);
 }
 hero #text-output{
-    position: absolute;
+    position: relative;
+    margin: 250px 280px;
     width: 400px;
-    margin: 240px 40px;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid var(--third-color);
 }
- hero #wakanda{
+
+footer{
     position: absolute;
-    max-width: 250px;
-    margin: 50px 500px;
+     width: 100%;
+    background-color: var(--primary-color);
+}
+ footer h1{
+     text-align: center;
+     padding: 5px;
+    font-family: var(--primary-font);
+   color: var(--third-color);
+    font-weight: bold;
+    font-size: 36px;
  }
- hero #mandalorian{
-    position: absolute;
-    max-width: 400px;
-    margin: 320px 60px;
- }
+ footer .lit{
+    color: var(--secondary-color);
+}
+footer li{
+     text-align: center;
+}
+footer img{
+    max-width: 100px;
+}

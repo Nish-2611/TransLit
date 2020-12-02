@@ -54,28 +54,36 @@ a:hover{
   color:var(--secondary-color);
 }
 hero #translate-options{
-    position: absolute;
+    position: relative;
     width: 200px;
-    margin: 20px 400px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
     font-size: 14px;
     background-color: transparent;
     border: 2px solid var(--third-color);
     cursor: pointer;
+    display: block;
 }
 hero #text-input{
-    position: absolute;
-    margin: 80px 280px;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
     width: 400px;
     padding: 20px;
    border-radius: 10px;
    border: 2px solid var(--third-color);
+   display: block;
 }
 hero button{
-    position: absolute;
-    margin: 180px 430px;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
     padding: 10px 20px;
     border-radius: 10px;
-    outline: none;
+  display: block;
     font-size: 16px;
     font-weight: bold;
     color: var(--third-color);
@@ -88,17 +96,22 @@ hero .lit{
 }
 hero #text-output{
     position: relative;
-    margin: 250px 280px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 400px;
     padding: 20px;
-    border-radius: 10px;
-    border: 2px solid var(--third-color);
+   border-radius: 10px;
+   border: 2px solid var(--third-color);
+   display: block;
 }
 
 footer{
     position: absolute;
      width: 100%;
     background-color: var(--primary-color);
+    border-radius: 20px;
 }
  footer h1{
      text-align: center;
@@ -107,6 +120,7 @@ footer{
    color: var(--third-color);
     font-weight: bold;
     font-size: 36px;
+    
  }
  footer .lit{
     color: var(--secondary-color);

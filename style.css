@@ -64,6 +64,7 @@ hero #translate-options{
     border: 2px solid var(--third-color);
     cursor: pointer;
     display: block;
+    outline: 0px;
 }
 hero #text-input{
     position: relative;
@@ -75,6 +76,7 @@ hero #text-input{
    border-radius: 10px;
    border: 2px solid var(--third-color);
    display: block;
+   outline: 0px;
 }
 hero button{
     position: relative;
@@ -89,6 +91,7 @@ hero button{
     color: var(--third-color);
     background-color: var(--primary-color);
     cursor: pointer;
+    outline: 0px;
    
 }
 hero .lit{
@@ -105,6 +108,7 @@ hero #text-output{
    border-radius: 10px;
    border: 2px solid var(--third-color);
    display: block;
+   outline: 0px;
 }
 
 footer{
